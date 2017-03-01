@@ -1,0 +1,24 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<h2>To-Do List</h2>
+
+{% for todo in todos %}
+
+<table>
+    <tr>
+        <th>Task</th>
+    </tr>
+    <tr>
+        <td>{{todo.task}}</td>
+    </tr>
+</table>
+{% endfor %}
